@@ -28,6 +28,12 @@ import static com.hmdp.utils.SystemConstants.USER_NICK_NAME_PREFIX;
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
 
+    /**
+     * test提交
+     * @param phone
+     * @param session
+     * @return
+     */
     @Override
     public Result sendCode(String phone, HttpSession session) {
         //校验手机号格式是否正确
