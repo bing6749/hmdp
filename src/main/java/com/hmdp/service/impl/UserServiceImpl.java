@@ -29,7 +29,7 @@ import static com.hmdp.utils.SystemConstants.USER_NICK_NAME_PREFIX;
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
 
     /**
-     * test提交
+     * test2提交 使用校园网（22端口被禁）
      * @param phone
      * @param session
      * @return
